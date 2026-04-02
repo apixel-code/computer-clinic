@@ -41,9 +41,11 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3">
-            <div className="w-12 h-12 rounded-full bg-gradient-to-br from-cyan-500 to-cyan-600 flex items-center justify-center">
-              <span className="text-2xl font-bold" style={{ color: '#1a1a2e' }}>CC</span>
-            </div>
+            <img 
+              src="https://customer-assets.emergentagent.com/job_clinic-solutions-1/artifacts/f2e86d9y_computer%20logo.jpg" 
+              alt="Computer Clinic Logo" 
+              className="h-14 w-auto"
+            />
             <div className="flex flex-col">
               <span className="text-xl font-bold" style={{ color: '#00bcd4', fontFamily: 'Rajdhani' }}>Computer Clinic</span>
               <span className="text-xs" style={{ color: '#ff6600' }}>Since 2016</span>
